@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(p1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.icon {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 25px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.logo-text {
+  color: #ff7200;
+  font-size: 40px;
+}
+
+.logo-subtext {
+  color: #fff;
+  font-size: 25px;
+  font-family: Arial;
+  padding-left: 40px;
+  float: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  position: relative;
+  top: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+
+.Socials {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial;
+  width: 100%;
+  bottom: 0;
+  top: 20px;
+  width: 50px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  padding-left: 50px;
+  display: row;
+  grid-template-columns: repeat(3, 30px);
+  grid-gap: 40px;
+}
+
+.Socials a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Socials ion-icon {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.Socials ion-icon:hover {
+  color: #ff7200;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial;
+  width: 90%;
+  bottom: 0;
+  position: absolute;
+  position: bottom;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
